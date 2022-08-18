@@ -9,3 +9,6 @@ In Simulated Annealing, if we keep waiting for better solution, the algorithm ma
 To get over local minima and locate global minima, bad solutions are also accepted in a conditional basis. 
 Condition used is a probability (normal distribution with mean = 50% and s.d = 5%) of finding better solutions in future.
 
+In this project i compair optimal solution from metaheuristic Simulated-Annealing algorithm with the  solution of Mixed integer linear programming 
+the dataset is TSP-11 and TSP-48 , got  4.3% error in solution of simulated annealing algorithm as compared to MILP.
+
